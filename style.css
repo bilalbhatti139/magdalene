@@ -1,0 +1,256 @@
+@font-face {
+	font-family: 'proxima_nova_rgregular';
+	src: url('https://litmus.com/fonts/Emails/proximanova-regular-webfont.eot');
+	src: url('https://litmus.com/fonts/Emails/proximanova-regular-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('https://litmus.com/fonts/Emails/proximanova-regular-webfont.woff') format('woff'),
+		 url('https://litmus.com/fonts/Emails/proximanova-regular-webfont.ttf') format('truetype'),
+		 url('https://litmus.com/fonts/Emails/proximanova-regular-webfont.svg#proxima_nova_rgregular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'proxima_nova_rgbold';
+	src: url('https://litmus.com/fonts/Emails/proximanova-bold-webfont.eot');
+	src: url('https://litmus.com/fonts/Emails/proximanova-bold-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('https://litmus.com/fonts/Emails/proximanova-bold-webfont.woff') format('woff'),
+		 url('https://litmus.com/fonts/Emails/proximanova-bold-webfont.ttf') format('truetype'),
+		 url('https://litmus.com/fonts/Emails/proximanova-bold-webfont.svg#proxima_nova_rgbold') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'adelle_rgregular';
+	src: url('https://litmus.com/fonts/Emails/adelle_reg-webfont.eot');
+	src: url('https://litmus.com/fonts/Emails/adelle_reg-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('https://litmus.com/fonts/Emails/adelle_reg-webfont.woff') format('woff'),
+		 url('https://litmus.com/fonts/Emails/adelle_reg-webfont.ttf') format('truetype'),
+		 url('https://litmus.com/fonts/Emails/adelle_reg-webfont.svg#adelle_rgregular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+body{
+	font-family: 'proxima_nova_rgregular', Helvetica, Arial, sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+.hi{
+    border: 1px solid blue;
+}
+/* Navbar Section */
+.nav-item1{
+	margin-left: 10px;
+}
+.nav-link1{
+	font-size: 13px;
+	color: #333333;
+	font-weight: 300;
+}
+.call-us button{
+	background-color: transparent;
+	border: none;
+	padding: 12px 0px;
+}
+.call-us button a{
+	text-decoration: none;
+	font-size: 13px;
+	text-transform: uppercase;
+	color: #fb7e32;
+	font-weight: bold;
+}
+.contact{
+	color: #44B1ED;
+}
+.appointment button{
+	background-color: transparent;
+	border: none;
+	background-color: #44B1ED;
+	padding: 25px 24px;
+}
+.appointment button a{
+	text-decoration: none;
+	font-size: 13px;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	font-weight: bold;
+}
+/* Banner Section */
+.banner-wrapper{
+    background-image: url("./src/5.png") ;
+    min-height: 680px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.banner-content{
+	text-align: center;
+}
+.banner-content h6{
+	font-size: 20px;
+    text-transform: uppercase;
+    color: #fd6260;
+    font-weight: bold;
+}
+.banner-content h1{
+    font-size: 55px;
+    text-transform: uppercase;
+    color: #f6f5f5;
+    font-weight: bold;
+}
+.banner-content p{
+    font-size: 18px;
+    color: #fefefe;
+}
+.banner-btn{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.help-btn{
+    margin-right: 30px;
+}
+.help-btn button{
+    border-radius: 33px;
+    background-color: #fd6260;
+    border: none;
+    padding: 14px 70px;
+}
+.help-btn button a{
+    text-decoration: none;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: bold;
+}
+.patient-btn button{
+    border-radius: 33px;
+    background-color: transparent;
+    border: 2px solid #ebebeb;
+    padding: 10px 20px;
+}
+.patient-btn button a{
+    text-decoration: none;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: bold;
+}
+/* Footer  */
+.footer-wrapper{
+	background-color: #222222;
+}
+.icon-wrapper{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+	margin-top: 40px;
+}
+.icon-text h6, .quick-link-wrapper h6, .footer-services h6{
+	font-size: 15px;
+	color: #ffffff;
+	font-weight: bold;
+}
+.icon-text p, .footer-social-content p, .footer-nav ul li a{
+	font-size: 13px;
+	line-height: 20px;
+	color: #ffffff;
+	font-weight: 300;
+	text-decoration: none;
+}
+.icon-text{
+	min-width: 200px;
+}
+.line{
+	border-bottom: 1px solid #484648;
+	margin: 40px 0px 80px 0px;
+}
+.social-icon-wrapper{
+	margin-bottom: 20px;
+}
+.footer-logo{
+	margin-bottom: 30px;
+}
+.footer-social-icons{
+	display: flex;
+	flex-wrap: wrap;
+}
+.footer-icon{
+	margin-left: 25px;
+}
+.footer-nav ul{
+	list-style-type: none;
+	padding:0px;
+}
+.footer-nav ul li{
+	padding: 6px 0px;
+}
+.footer-services p{
+	font-size: 13px;
+	line-height: 40px;
+	color: #ffffff;
+	font-weight: 300;
+}
+.opening-hours{
+	background-color: #FFFFFF;
+	border: none;
+	border-radius: 10px;
+	padding: 20px 30px;
+	margin-bottom: 20px;
+}
+.opening-hours h4{
+	font-size: 25px;
+	color: #42b0ed;
+	font-weight: bold;
+}
+.opening-hours h6{
+	font-size: 18px;
+	color: #333333;
+	font-weight: bold;
+}
+.opening-hours p{
+	font-size: 15px;
+	color: #333333;
+}
+/* Copyright */
+.copyright-wrapper{
+	background-color: #FD615F;
+}
+.copyright p{
+	font-size: 13px;
+	color: #ffffff;
+	font-weight: 300;
+}
+
+@media (max-width: 991px) {
+	.nav-link1{
+		font-size: 15px;
+	}
+	.appointment button, .call-us button{ 
+		padding: 15px 10px;
+		
+	}
+	.appointment button a, .call-us button a{
+		font-size: 13px;
+	}
+	.appointment button{
+		margin-top: 10px;
+	}
+	.footer-social-icons{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+	.banner-content h6{
+		font-size: 12px;
+	}
+	.banner-content h1{
+		font-size: 30px;
+	}
+	.banner-content p{
+		font-size: 12px;
+	}
+}

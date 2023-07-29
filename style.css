@@ -37,6 +37,7 @@ body{
 .hi{
     border: 1px solid blue;
 }
+
 /* Navbar Section */
 .nav-item1{
 	margin-left: 10px;
@@ -80,9 +81,9 @@ body{
     min-height: 680px;
     background-size: cover;
     background-repeat: no-repeat;
+	margin-bottom: 200px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
     align-items: center;
 }
 .banner-content{
@@ -116,9 +117,9 @@ body{
     border-radius: 33px;
     background-color: #fd6260;
     border: none;
-    padding: 14px 70px;
+    padding: 12px 70px;
 }
-.help-btn button a{
+.help-btn button a, .about-btn a{
     text-decoration: none;
     font-size: 15px;
     text-transform: uppercase;
@@ -129,7 +130,7 @@ body{
     border-radius: 33px;
     background-color: transparent;
     border: 2px solid #ebebeb;
-    padding: 10px 20px;
+    padding: 10px 22px;
 }
 .patient-btn button a{
     text-decoration: none;
@@ -137,6 +138,165 @@ body{
     text-transform: uppercase;
     color: #ffffff;
     font-weight: bold;
+}
+.banner-card-wrapper{
+	background-color: #ffffff;
+	border: 1px solid #e6e6e6;
+	padding: 20px;
+	min-height: 300px;
+	position: absolute;
+	top: 50px;
+}
+.banner-card-img{
+	height: 100px;
+}
+.banner-card-content{
+	text-align: center;
+	margin-bottom: 0px;
+}
+.banner-card-content h6{
+	font-size: 25px;
+	color: #070707;
+	font-weight: bold;
+	padding-top: 20px;
+}
+.banner-card-content p{
+	font-size: 13px;
+	color: #070707;
+	padding-top: 10px;
+}
+/* Welcome to Magdalene Clinic */
+.magdalene-clinic-wrapper{
+	margin-bottom: 40px;
+}
+.about-btn button{
+    border-radius: 33px;
+    background-color: #fd6260;
+    border: none;
+    padding: 12px 50px;
+}
+.magdalene-clinic-content h6, .service-heading h6{
+	font-size: 18px;
+	color: #fd6260;
+	font-weight: bold;
+	padding-bottom: 10px;
+}
+.magdalene-clinic-content h3, .service-heading h3{
+	font-size: 30px;
+	color: #070707;
+	font-weight: bold;
+	padding-bottom: 10px;
+}
+.magdalene-clinic-content p{
+	font-size: 13px;
+	color: #070707;
+	line-height: 25px;
+	padding-bottom: 10px;
+}
+/* Service Section */
+.service-wrapper{
+	background-color: #F7F9FB;
+	margin-bottom: 40px;
+}
+.service-heading{
+	text-align: center;
+	margin: 40px 0px;
+}
+.service-card-wrapper{
+	background-color: #FFFFFF;
+	margin-bottom: 40px;
+}
+.service-arrow{
+	display: flex;
+	justify-content: center;
+}
+.arrow-up {
+	width: 0; 
+	height: 0; 
+	border-left: 12px solid transparent;
+	border-right: 12px solid transparent;
+	border-bottom: 12px solid black;
+  }
+.arrow-down{
+  width: 0; 
+  height: 0; 
+  border-left: 12px solid transparent;
+  border-right: 12px solid transparent;
+  border-top: 12px solid black;
+}
+.service-card-content{
+	text-align: center;
+	padding: 0px 30px;
+}
+.service-card-content h6{
+	font-size: 22px;
+	text-transform: uppercase;
+	color: #070707;
+	font-weight: bold;
+	padding-top: 40px;
+}
+.service-card-content-mid h6{
+	padding-top: 70px;
+}
+.service-card-content p{
+	font-size: 13px;
+	color: #070707;
+	font-weight: 300;
+}
+.service-card-content button {
+	background-color: transparent;
+	border: none;
+	margin-bottom: 20px;
+}
+.service-card-content button a{
+	text-decoration: none;
+	font-size: 15px;
+	color: #fd6260;
+	font-weight: bold;
+}
+
+/* Doctor Patient Section */
+.doctor-patient-wrapper{
+	margin-bottom: 40px;
+}
+.our-patient-wrapper{
+	background-color: #41AFED;
+	padding: 20px 30px 20px 30px;
+}
+.our-doctor-wrapper{
+	background-color: #FB7D31;
+	padding: 20px 30px 20px 30px;
+}
+.patient-heading, .doctor-heading{
+	display: flex;
+	align-items: center;
+}
+.patient-heading h3, .doctor-heading h3{
+	font-size: 30px;
+	color: #FFFFFF;
+	font-weight: bold;
+	padding: 40px 0px 0px 20px;
+}
+.patient-content p, .doctor-content p{
+	font-size: 13px;
+	color: #FFFFFF;
+	padding: 20px 0px 10px 0px;
+}
+.patient-content button, .doctor-content button {
+	background-color: transparent;
+	border: 1px solid #FFFFFF;
+	border-radius: 15px;
+	margin-bottom: 20px;
+	padding: 10px 40px;
+}
+.patient-content button a, .doctor-content button a{
+	text-decoration: none;
+	font-size: 15px;
+	color: #FFFFFF;
+}
+/* Affiliates */
+.affiliates-wrapper{
+	margin-bottom: 40px;
 }
 /* Footer  */
 .footer-wrapper{
@@ -253,4 +413,20 @@ body{
 	.banner-content p{
 		font-size: 12px;
 	}
+	.banner-card-wrapper{
+		position: static !important;
+	}
+	.help-btn{
+		margin: 0px 0px 20px 0px;
+	}
+	.patient-btn{
+		margin-bottom: 20px;
+	}
+	.about-btn{
+		margin-bottom: 10px;
+	}
+	.banner-wrapper{
+		margin-bottom: 40px;
+	}
+
 }

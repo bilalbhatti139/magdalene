@@ -113,13 +113,13 @@ body{
 .help-btn{
     margin-right: 30px;
 }
-.help-btn button{
+.help-btn button, .contact-btn button{
     border-radius: 33px;
     background-color: #fd6260;
     border: none;
     padding: 12px 70px;
 }
-.help-btn button a, .about-btn a{
+.help-btn button a, .about-btn button a, .contact-btn button a{
     text-decoration: none;
     font-size: 15px;
     text-transform: uppercase;
@@ -175,13 +175,13 @@ body{
     border: none;
     padding: 12px 50px;
 }
-.magdalene-clinic-content h6, .service-heading h6{
+.magdalene-clinic-content h6, .service-heading h6, .choose-us-heading h6, .service-area h6, .testimonial-heading h6{
 	font-size: 18px;
 	color: #fd6260;
 	font-weight: bold;
 	padding-bottom: 10px;
 }
-.magdalene-clinic-content h3, .service-heading h3{
+.magdalene-clinic-content h3, .service-heading h3, .choose-us-heading h3, .service-area h3, .testimonial-heading h3{
 	font-size: 30px;
 	color: #070707;
 	font-weight: bold;
@@ -253,6 +253,262 @@ body{
 	font-size: 15px;
 	color: #fd6260;
 	font-weight: bold;
+}
+/* Choose Us */
+.choose-us-content-wrapper{
+	background-color: #FB7D31;
+	margin-bottom: 120px;
+	position: relative;
+}
+.contact-btn{
+	display: flex;
+	justify-content: end;
+	align-items: center;
+}
+.choose-us-img{
+	position: absolute;
+	top: 60px;
+}
+.choose-us-img img{
+	width: 90%;
+}
+.choose-us-heading-wrapper{
+	margin-bottom: 20px;
+}
+.choose-us-content{
+	margin: 80px 0px 100px 0px;
+}
+.choose-us-content h6{
+	font-size: 18px;
+	color: #ffffff;
+	font-weight: bold;
+	padding-bottom: 10px;
+}
+.choose-us-content h3{
+	font-size: 30px;
+	color: #ffffff;
+	font-weight: bold;
+	padding-bottom: 10px;
+}
+.choose-us-content p{
+	font-size: 13px;
+	color: #ffffff;
+	font-weight: 300;
+}
+.choose-us-point-wrapper{
+	margin-top: 20px;
+}
+.choose-us-point {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	margin-bottom: 10px;
+}
+.choose-us-point-content{
+	margin: 10px 0px 0px 20px;
+	width: 85%;
+}
+.choose-us-point-content p{
+	font-size: 16px;
+	color: #ffffff;
+	font-weight: 300;
+}
+.we-are-here{
+	position: absolute;
+	width: 30%;
+	right: 0px;
+	bottom: -50px;
+}
+/* Service Areas */
+.service-area-wrapper{
+	margin-bottom: 40px;
+}
+.map-wrapper{
+	background-image: url('./src/26.png');
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+}
+.location-wrapper{
+	width: 50%;
+	padding-top: 60px;
+}
+.location-icon, .location-txt{
+	text-align: center;
+}
+.location-icon img{
+	width: 30px;
+	height: 40px;
+}
+.location-txt p{
+	font-size: 15px;
+	color: #070707;
+	font-style: italic;
+	font-weight: bold;
+}
+.service-area p{
+	font-size: 13px;
+	color: #070707;
+	font-weight: 300;
+}
+.oconee{
+	font-weight: bold;
+}
+.population{
+	padding: 30px;
+	background-color: #F7F9FB;
+	border-left: 5px solid #FB7D31;
+	margin-bottom: 40px;
+}
+.population h6{
+	color: #070707;
+	padding-bottom: 0px;
+}
+.service-area-points{
+	margin-bottom: 40px;
+}
+.service-area-points p{
+	font-size: 13px;
+	color: #070707;
+	font-weight: 300;
+	position: relative;
+	padding-left: 35px;
+}
+.service-area-points p::before{
+	display: block;
+	content: "";
+	width: 5px;
+	height: 5px;
+	background-color: #FB7D31;
+	position: absolute;
+	top: 5px;
+	left: 0px;
+}
+/* Always Safe */
+.always-safe-wrapper{
+	background-color: #FD615F;
+	margin-bottom: 40px;
+}
+.always-safe-content{
+	margin: 40px 0px;
+	text-align: center;
+}
+.always-safe-content h3{
+	font-size: 40px;
+	line-height: 40px;
+	color: #ffffff;
+	font-weight: bold;
+}
+.always-safe-content h6{
+	font-size: 20px;
+	color: #ffffff;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+.safe-contact-btn button{
+    border-radius: 33px;
+    background-color: #ffffff;
+    border: none;
+    padding: 12px 50px;
+}
+.safe-contact-btn button a{
+    text-decoration: none;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #fd6260;
+    font-weight: bold;
+}
+/* Testimonials */
+.testimonial-wrapper{
+	margin-bottom: 40px;
+}
+.testimonial-heading{
+	text-align: center;
+}
+.testimonial-heading h6{
+	font-size: 18px;
+	color: #fd6260;
+	font-weight: bold;
+	margin-bottom: 0px;
+}
+.testimonial-heading h3{
+	font-size: 30px;
+	color: #070707;
+	font-weight: bold;
+	margin-bottom: 0px;
+}
+.testimonial-icon img{
+	width: 40px;
+	height: 40px;
+}
+.testimonial-icon, .testimonial-rating-star{
+	margin-bottom: 20px;
+}
+.testimonial-content-wrapper{
+	padding: 30px 100px;
+}
+.testimonial-content p{
+	font-size: 15px;
+	color: #070707;
+	font-weight: 300;
+}
+.user-wrapper{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.user-display{
+	background-color: #41AFED;
+	border-radius: 50%;
+	width: 55px;
+	height: 55px;
+	display: flex;
+	justify-content: center;
+}
+.user-display h2{
+	color: #ffffff;
+	padding-top: 10px;
+}
+.user-detail{
+	margin: 0px 0px 20px 20px;
+}
+.user-detail p{
+	font-size: 15px;
+	color: #fb7e32;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+.user-detail h6{
+	font-size: 18px;
+	color: #070707;
+	font-weight: bold;
+}
+.carousel-indicators li {
+	background-color: #C4C4C4;
+	border-radius: 50%;
+	width: 10px;
+	height: 10px;
+	margin: 0 10px;
+  }
+.carousel-indicators .active {
+	background-color: #fb7e32;
+  }
+.carousel-control-next-icon{
+	border: 1px solid #fb7e32;
+	border-radius: 50%;
+	padding: 20px;
+	position: absolute;
+	top: 45px;
+	right: 10px;
+}
+.carousel-control-prev-icon{
+	border: 1px solid #fb7e32;
+	fill: #fb7e32 !important;
+	border-radius: 50%;
+	padding: 20px;
+	position: absolute;
+	top: 45px;
+	left: 10px;
 }
 
 /* Doctor Patient Section */
@@ -406,6 +662,7 @@ body{
 	}
 	.banner-content h6{
 		font-size: 12px;
+		padding-top: 20px;
 	}
 	.banner-content h1{
 		font-size: 30px;
@@ -416,9 +673,6 @@ body{
 	.banner-card-wrapper{
 		position: static !important;
 	}
-	.help-btn{
-		margin: 0px 0px 20px 0px;
-	}
 	.patient-btn{
 		margin-bottom: 20px;
 	}
@@ -428,5 +682,75 @@ body{
 	.banner-wrapper{
 		margin-bottom: 40px;
 	}
-
+	.contact-btn button{
+		padding: 10px 50px ;
+	}
+	.contact-btn{
+		justify-content: start;
+	}
+	.choose-us-content-wrapper{
+		margin-bottom: 40px;
+	}
+	.choose-us-point-content{
+		margin: 10px 0px 0px 20px;
+		width: 65%;
+	}
+	.choose-us-img img{
+		width: 100%;
+	}
+	.choose-us-img{
+		position: static;
+		margin-top: 20px;
+	}
+	.choose-us-content{
+		margin: 20px 0px 20px 0px;
+	}
+	.we-are-here{
+		position: static;
+		width: 100%;
+	}
+	.help-btn{
+		margin: 0px 0px 10px 0px;
+	}
+	.map-wrapper{
+		min-height: 400px;
+	}
+	.service-heading{
+		text-align: left;
+	}
+	.location-txt p{
+		padding: 0px;
+	}
+	.location-wrapper{
+		width: 100%;
+		padding: 0px;
+	}
+	.always-safe-content{
+		text-align: left;
+	}
+	.always-safe-content h3{
+		font-size: 20px;
+		line-height: 20px;
+	}
+	.always-safe-content h6{
+		font-size: 15px;
+		line-height: 15px;
+		margin-bottom: 20px;
+	}
+	.testimonial-content-wrapper{
+		text-align: left !important;
+	}
+	.testimonial-content-wrapper{
+		padding: 15px 35px;
+	}
+	.carousel-control-next-icon{
+		padding: 5px;
+		top: 50px;
+		left: 0px;
+	}
+	.carousel-control-prev-icon{
+		padding: 5px;
+		top: 50px;
+		right: 0px;
+	}
 }

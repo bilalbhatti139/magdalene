@@ -23,12 +23,14 @@
     <section>
       <div class="container-fluid">
         <div class="nav-wrapper">
-          <div class="row justify-content-between">
+          <div
+            class="row justify-content-between flex-nowrap align-items-center"
+          >
             <div class="logo">
               <img src="./src/2.png" alt="Logo" class="img-fluid" />
             </div>
-            <div class="d-flex">
-              <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="d-flex desktop-menu">
+              <nav class="navbar navbar-expand-xl navbar-light">
                 <button
                   class="navbar-toggler mx-auto"
                   type="button"
@@ -40,10 +42,7 @@
                 >
                   <span class="navbar-toggler-icon"></span>
                 </button>
-                <div
-                  class="collapse navbar-collapse"
-                  id="navbarSupportedContent"
-                >
+                <div class="collapse navbar-collapse">
                   <ul class="navbar-nav mx-auto">
                     <li class="nav-item nav-item1">
                       <a class="nav-link nav-link1" href="#">HOME</a>
@@ -76,6 +75,37 @@
             <div class="appointment">
               <button>make an appointment</button>
             </div>
+          </div>
+        </div>
+      </div>
+      <div class="mobile-menu">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item nav-item1">
+              <a class="nav-link nav-link1" href="#">HOME</a>
+            </li>
+            <li class="nav-item nav-item1">
+              <a class="nav-link nav-link1" href="#">OUR PATIENTS</a>
+            </li>
+            <li class="nav-item nav-item1">
+              <a class="nav-link nav-link1" href="#">PROVIDERS/REFERRALS</a>
+            </li>
+            <li class="nav-item nav-item1">
+              <a class="nav-link nav-link1" href="#">RESOURCES</a>
+            </li>
+            <li class="nav-item nav-item1">
+              <a class="nav-link nav-link1" href="#">MEET US</a>
+            </li>
+            <li class="nav-item nav-item1">
+              <a class="nav-link nav-link1" href="#">CONTACT</a>
+            </li>
+          </ul>
+          <div class="call-us">
+            <button>call us for consultation</button>
+            <p class="contact">(864) 482-348</p>
+          </div>
+          <div class="appointment">
+            <button>make an appointment</button>
           </div>
         </div>
       </div>

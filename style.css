@@ -702,7 +702,91 @@ body {
   padding-bottom: 40px;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 1685px) {
+  .nav-wrapper .logo {
+    padding: 20px;
+  }
+  .nav-wrapper .logo img {
+    width: 250px;
+  }
+  .nav-wrapper .nav-link1 {
+    font-size: 14px;
+  }
+
+  .call-us button {
+    font-size: 16px;
+  }
+
+  .call-us .contact {
+    font-size: 18px;
+  }
+
+  .appointment button {
+    padding: 35px 25px;
+  }
+}
+
+@media (max-width: 1503px) {
+  .nav-wrapper .logo img {
+    width: 200px;
+  }
+
+  .appointment button {
+    font-size: 18px;
+  }
+
+  .call-us .contact {
+    font-size: 16px;
+  }
+
+  .call-us button {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 1402px) {
+  .nav-wrapper .logo img {
+    width: 180px;
+  }
+
+  .appointment button {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 1337px) {
+  .call-us {
+    padding-left: 10px;
+  }
+
+  .nav-wrapper .logo img {
+    width: 150px;
+  }
+}
+
+@media (max-width: 1199px) {
+  .mobile-menu .call-us {
+    border: none;
+  }
+
+  .mobile-menu .call-us button {
+    padding: 10px 0px;
+  }
+
+  .mobile-menu .nav-link1 {
+    color: #333333;
+    font-weight: 500;
+  }
+
+  .mobile-menu {
+    padding-left: 20px;
+  }
+
+  .mobile-menu .call-us,
+  .appointment {
+    display: block;
+  }
+
   .call-us,
   .appointment {
     display: none;

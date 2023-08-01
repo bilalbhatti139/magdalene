@@ -48,23 +48,27 @@ body {
 }
 
 /* Navbar Section */
+.nav-content{
+  padding: 30px 0px;
+  display: flex;
+  flex-wrap: wrap !important;
+}
 .nav-item1 {
   margin-left: 10px;
+  padding: 0px 8px;
 }
-
-.nav-wrapper .logo {
+.logo {
   padding: 20px 30px;
 }
 
 .nav-wrapper .nav-link1 {
-  font-size: 16px;
+  font-size: 18px;
   color: #333333 !important;
   font-weight: 300;
 }
-
 .call-us {
   border-left: 1px solid #f4f4f4;
-  padding-left: 20px;
+  padding-top: 25px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -79,19 +83,15 @@ body {
   font-weight: bold;
   background-color: transparent;
   border: none;
+  cursor: pointer;
 }
 
-.call-us .contact {
+.contact {
   color: #44b1ed;
   margin: 0;
   font-size: 22px;
   font-weight: bold;
 }
-
-.appointment {
-  height: 100%;
-}
-
 .appointment button {
   text-decoration: none;
   font-size: 20px;
@@ -100,7 +100,8 @@ body {
   font-weight: bold;
   border: none;
   background-color: #44b1ed;
-  padding: 42px 25px;
+  padding: 44px 30px;
+  cursor: pointer;
 }
 
 /* Banner Section */
@@ -109,7 +110,7 @@ body {
   min-height: 680px;
   background-size: cover;
   background-repeat: no-repeat;
-  margin-bottom: 200px;
+  margin-bottom: 240px;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -118,7 +119,7 @@ body {
   text-align: center;
 }
 .banner-content h6 {
-  font-size: 20px;
+  font-size: 26px;
   text-transform: uppercase;
   color: #fd6260;
   font-weight: bold;
@@ -130,7 +131,7 @@ body {
   font-weight: bold;
 }
 .banner-content p {
-  font-size: 18px;
+  font-size: 22px;
   color: #fefefe;
 }
 .banner-btn {
@@ -142,33 +143,28 @@ body {
   margin-right: 30px;
 }
 .help-btn button,
-.contact-btn button {
+.contact-btn button,
+.about-btn button {
   border-radius: 33px;
   background-color: #fd6260;
   border: none;
   padding: 12px 70px;
-}
-.help-btn button a,
-.about-btn button a,
-.contact-btn button a {
-  text-decoration: none;
-  font-size: 15px;
+  font-size: 20px;
   text-transform: uppercase;
   color: #ffffff;
   font-weight: bold;
+  cursor: pointer;
 }
 .patient-btn button {
   border-radius: 33px;
   background-color: transparent;
   border: 2px solid #ebebeb;
   padding: 10px 22px;
-}
-.patient-btn button a {
-  text-decoration: none;
-  font-size: 15px;
+  font-size: 20px;
   text-transform: uppercase;
   color: #ffffff;
   font-weight: bold;
+  cursor: pointer;
 }
 .banner-card-wrapper {
   background-color: #ffffff;
@@ -176,24 +172,24 @@ body {
   padding: 20px;
   min-height: 300px;
   position: absolute;
-  top: 50px;
+  top: 40px;
   filter: drop-shadow(0 0 15px rgba(0, 0, 0, 0.1));
 }
 .banner-card-img {
-  height: 100px;
+  height: 80px;
 }
 .banner-card-content {
   text-align: center;
   margin-bottom: 0px;
 }
 .banner-card-content h6 {
-  font-size: 25px;
+  font-size: 26px;
   color: #070707;
   font-weight: bold;
   padding-top: 20px;
 }
 .banner-card-content p {
-  font-size: 13px;
+  font-size: 18px;
   color: #070707;
   padding-top: 10px;
 }
@@ -201,37 +197,34 @@ body {
 .magdalene-clinic-wrapper {
   margin-bottom: 40px;
 }
-.about-btn button {
-  border-radius: 33px;
-  background-color: #fd6260;
-  border: none;
-  padding: 12px 50px;
-}
+
 .magdalene-clinic-content h6,
 .service-heading h6,
-.choose-us-heading h6,
 .service-area h6,
 .testimonial-heading h6 {
-  font-size: 18px;
+  font-size: 20px;
   color: #fd6260;
   font-weight: bold;
   padding-bottom: 10px;
 }
 .magdalene-clinic-content h3,
 .service-heading h3,
-.choose-us-heading h3,
 .service-area h3,
 .testimonial-heading h3 {
-  font-size: 30px;
+  font-size: 50px;
   color: #070707;
   font-weight: bold;
   padding-bottom: 10px;
 }
 .magdalene-clinic-content p {
-  font-size: 13px;
+  font-size: 18px;
   color: #070707;
-  line-height: 25px;
-  padding-bottom: 10px;
+}
+.magdalene-clinic-img{
+	margin-top: 20px;
+}
+.magdalene-clinic-img img{
+  height: 460px;
 }
 /* Service Section */
 .service-wrapper {
@@ -264,85 +257,105 @@ body {
   border-right: 12px solid transparent;
   border-top: 12px solid black;
 }
-.service-card-content {
+.service-card-content,
+.service-card-content-mid {
   text-align: center;
-  padding: 0px 30px;
+  padding: 0px 10px;
+}
+.service-card-content-mid h6{
+  font-size: 20px;
+	text-transform: uppercase;
+	color: #070707;
+	font-weight: bold;
+  padding-top: 63px;
 }
 .service-card-content h6 {
-  font-size: 22px;
-  text-transform: uppercase;
-  color: #070707;
-  font-weight: bold;
-  padding-top: 40px;
+	font-size: 20px;
+	text-transform: uppercase;
+	color: #070707;
+	font-weight: bold;
+  padding-top: 38px;
 }
-.service-card-content-mid h6 {
-  padding-top: 70px;
-}
-.service-card-content p {
+.service-card-content p,
+.service-card-content-mid p{
   font-size: 13px;
   color: #070707;
   font-weight: 300;
+  padding-top: 10px;
 }
-.service-card-content button {
+.service-card-content button,
+.service-card-content-mid button {
   background-color: transparent;
   border: none;
-  margin-bottom: 20px;
-}
-.service-card-content button a {
-  text-decoration: none;
-  font-size: 15px;
+  margin-bottom: 15px;
+  font-size: 18px;
   color: #fd6260;
   font-weight: bold;
+  cursor: pointer;
 }
+
 /* Choose Us */
 .choose-us-content-wrapper {
   background-color: #fb7d31;
   margin-bottom: 120px;
   position: relative;
 }
+.choose-us-heading h6{
+  font-size: 25px;
+  color: #fd6260;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+.choose-us-heading h3{
+  font-size: 50px;
+  color: #070707;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
 .contact-btn {
   display: flex;
   justify-content: end;
-  align-items: center;
+  margin-top: 30px;
 }
 .choose-us-img {
   position: absolute;
-  top: 60px;
-}
-.choose-us-img img {
-  width: 90%;
+  top: 80px;
 }
 .choose-us-heading-wrapper {
   margin-bottom: 20px;
 }
 .choose-us-content {
-  margin: 80px 0px 100px 0px;
+  margin: 110px 0px 110px 0px;
+  padding-left: 30px;
 }
 .choose-us-content h6 {
-  font-size: 18px;
+  font-size: 20px;
   color: #ffffff;
   font-weight: bold;
   padding-bottom: 10px;
 }
 .choose-us-content h3 {
-  font-size: 30px;
+  font-size: 40px;
   color: #ffffff;
   font-weight: bold;
   padding-bottom: 10px;
 }
 .choose-us-content p {
-  font-size: 13px;
+  font-size: 16px;
   color: #ffffff;
   font-weight: 300;
 }
 .choose-us-point-wrapper {
-  margin-top: 20px;
+  margin-top: 25px;
 }
 .choose-us-point {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  margin-bottom: 10px;
+}
+.choose-us-point-icon img{
+  width: 30px;
+  height: 30px;
 }
 .choose-us-point-content {
   margin: 10px 0px 0px 20px;
@@ -357,33 +370,15 @@ body {
   position: absolute;
   width: 30%;
   right: 0px;
-  bottom: -50px;
+  bottom: -45px;
 }
 /* Service Areas */
 .service-area-wrapper {
   margin-bottom: 40px;
 }
 
-.location-wrapper {
-  width: 50%;
-  padding-top: 60px;
-}
-.location-icon,
-.location-txt {
-  text-align: center;
-}
-.location-icon img {
-  width: 30px;
-  height: 40px;
-}
-.location-txt p {
-  font-size: 15px;
-  color: #070707;
-  font-style: italic;
-  font-weight: bold;
-}
 .service-area p {
-  font-size: 13px;
+  font-size: 18px;
   color: #070707;
   font-weight: 300;
 }
@@ -394,17 +389,18 @@ body {
   padding: 30px;
   background-color: #f7f9fb;
   border-left: 5px solid #fb7d31;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 .population h6 {
   color: #070707;
+  font-size: 24px;
   padding-bottom: 0px;
 }
 .service-area-points {
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 .service-area-points p {
-  font-size: 13px;
+  font-size: 18px;
   color: #070707;
   font-weight: 300;
   position: relative;
@@ -420,6 +416,9 @@ body {
   top: 5px;
   left: 0px;
 }
+.map-wrapper{
+  margin-top: 40px;
+}
 /* Always Safe */
 .always-safe-wrapper {
   background-color: #fd615f;
@@ -430,13 +429,13 @@ body {
   text-align: center;
 }
 .always-safe-content h3 {
-  font-size: 40px;
-  line-height: 40px;
+  font-size: 60px;
+  line-height: 65px;
   color: #ffffff;
   font-weight: bold;
 }
 .always-safe-content h6 {
-  font-size: 20px;
+  font-size: 30px;
   color: #ffffff;
   font-weight: bold;
   margin-bottom: 20px;
@@ -446,14 +445,13 @@ body {
   background-color: #ffffff;
   border: none;
   padding: 12px 50px;
-}
-.safe-contact-btn button a {
-  text-decoration: none;
   font-size: 15px;
   text-transform: uppercase;
   color: #fd6260;
   font-weight: bold;
+  cursor: pointer;
 }
+
 /* Testimonials */
 .testimonial-wrapper {
   margin-bottom: 40px;
@@ -466,13 +464,13 @@ body {
   text-align: center;
 }
 .testimonial-heading h6 {
-  font-size: 18px;
+  font-size: 20px;
   color: #fd6260;
   font-weight: bold;
   margin-bottom: 0px;
 }
 .testimonial-heading h3 {
-  font-size: 30px;
+  font-size: 50px;
   color: #070707;
   font-weight: bold;
   margin-bottom: 0px;
@@ -489,7 +487,7 @@ body {
   padding: 30px 100px;
 }
 .testimonial-content p {
-  font-size: 15px;
+  font-size: 26px;
   color: #070707;
   font-weight: 300;
 }
@@ -514,13 +512,13 @@ body {
   margin: 0px 0px 20px 20px;
 }
 .user-detail p {
-  font-size: 15px;
+  font-size: 18px;
   color: #fb7e32;
   font-weight: bold;
   margin-bottom: 5px;
 }
 .user-detail h6 {
-  font-size: 18px;
+  font-size: 20px;
   color: #070707;
   font-weight: bold;
 }
@@ -529,7 +527,7 @@ body {
   border-radius: 50%;
   width: 10px;
   height: 10px;
-  margin: 0 5px;
+  margin: 0 15px;
 }
 .carousel-indicators .active {
   background-color: #fb7e32;
@@ -539,7 +537,7 @@ body {
   border-radius: 50%;
   padding: 20px;
   position: absolute;
-  top: 45px;
+  top: 120px;
   right: 10px;
   background-image: url(./src/next.png) !important;
   background-size: auto;
@@ -551,7 +549,7 @@ body {
   border-radius: 50%;
   padding: 20px;
   position: absolute;
-  top: 45px;
+  top: 120px;
   left: 10px;
   background-image: url(./src/previous.png) !important;
   background-size: auto;
@@ -584,7 +582,7 @@ body {
 }
 .patient-content p,
 .doctor-content p {
-  font-size: 13px;
+  font-size: 18px;
   color: #ffffff;
   padding: 20px 0px 10px 0px;
 }
@@ -624,10 +622,13 @@ body {
   color: #ffffff;
   font-weight: bold;
 }
-.icon-text p,
+.icon-text p{
+  font-size: 13px;
+  color: #ffffff;
+}
 .footer-social-content p,
 .footer-nav ul li a {
-  font-size: 13px;
+  font-size: 18px;
   line-height: 20px;
   color: #ffffff;
   font-weight: 300;
@@ -661,7 +662,7 @@ body {
   padding: 6px 0px;
 }
 .footer-services p {
-  font-size: 13px;
+  font-size: 18px;
   line-height: 40px;
   color: #ffffff;
   font-weight: 300;
@@ -692,7 +693,7 @@ body {
   background-color: #fd615f;
 }
 .copyright p {
-  font-size: 13px;
+  font-size: 18px;
   color: #ffffff;
   font-weight: 300;
   margin: 0;
@@ -701,23 +702,92 @@ body {
 .footer-links-wrapper {
   padding-bottom: 40px;
 }
-
-@media (max-width: 991px) {
-  .call-us,
-  .appointment {
-    display: none;
+@media (max-width: 1440px) and (min-width: 1024px){
+  .logo{
+    margin-top: 20px;
+    width: 100%;
+    padding: 0px !important;
   }
-
-  .nav-link1 {
-    font-size: 15px;
+  .nav-item1 {
+    margin-left: 0px !important;
   }
-  .appointment button,
-  .call-us button {
-    padding: 15px 10px;
+  .nav-link1{
+    padding: 0px !important;
   }
-  .appointment button a,
-  .call-us button a {
+  .nav-wrapper .nav-link1 {
     font-size: 13px;
+  }
+  .call-us {
+    padding: 0px;
+    margin-top: 20px;
+  }
+  .appointment {
+    padding: 0px;
+  }
+  .appointment button{
+    font-size: 13px;
+    padding: 25px 25px;
+  }
+  .call-us button, .contact {
+    font-size: 13px;
+    padding: 0px;
+  }
+  .appointment button {
+    margin-top: 10px;
+  }
+}
+@media (max-width: 1024px) and (min-width: 992px){
+  .logo{
+    margin-top: 40px;
+    width: 100%;
+    padding: 0px !important;
+  }
+  .nav-item1 {
+    margin-left: 0px !important;
+  }
+  .nav-link1{
+    padding: 0px !important;
+  }
+  .nav-wrapper .nav-link1 {
+    font-size: 12px;
+  }
+  .call-us {
+    padding: 5px 0px;
+    margin-top: 20px;
+  }
+  .appointment {
+    padding: 0px;
+    margin-top: 20px;
+  }
+  .appointment button{
+    font-size: 12px;
+    padding: 5px;
+  }
+  .call-us button, .contact {
+    font-size: 12px;
+    padding: 0px;
+  }
+  .appointment button {
+    margin-top: 10px;
+  }
+}
+@media (max-width: 991px) {
+  .logo{
+    margin-top: 20px;
+  }
+  .call-us {
+    padding: 15px 0px;
+  }
+  .appointment {
+    padding: 5px 0px;
+  }
+  .appointment button{
+    font-size: 15px;
+    padding: 10px;
+  }
+  .call-us button, .contact {
+    font-size: 15px;
+    padding: 0px;
   }
   .appointment button {
     margin-top: 10px;
@@ -748,7 +818,6 @@ body {
   }
   .banner-wrapper {
     margin-bottom: 40px;
-    background-size: contain;
   }
   .contact-btn button {
     padding: 10px 50px;
@@ -811,12 +880,18 @@ body {
   }
   .carousel-control-next-icon {
     padding: 5px;
-    top: 50px;
-    left: 0px;
+    top: 80px;
+    right: 0px;
   }
   .carousel-control-prev-icon {
     padding: 5px;
-    top: 50px;
-    right: 0px;
+    top: 80px;
+    left: 0px;
+  }
+  .magdalene-clinic-img img{
+    height: 100%;
+  }
+  .testimonial-content p {
+    font-size: 18px;
   }
 }
